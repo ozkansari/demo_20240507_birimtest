@@ -31,5 +31,18 @@ public class HesapTest {
 		// THEN
 		assertEquals(-4, sonuc);
 	}
+	
+	@Test
+	public void cikart_ikiPozitifSayi() {
+		// GIVEN
+		int sayi1 = 20;
+		int sayi2 = 2;
+
+		// WHEN
+		int sonuc = Hesap.cikart(sayi1, sayi2);
+		
+		// THEN
+		assertEquals(18, sonuc);
+	}
 
 }

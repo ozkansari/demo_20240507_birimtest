@@ -6,7 +6,9 @@ public class Hesap {
 		return sayi1 + sayi2;
 	}
 	
-	// cikart
+	public static int cikart(int sayi1, int sayi2) {
+		return sayi1 - sayi2;
+	}
 	
 	// carp
 	
